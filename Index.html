@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="navbar" id="home">
+        <h2>itzyaboihnz</h2>
+
+        <ul>
+            <li><a href="#home">home</a></li>
+            <li><a href="#about">About me</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">contact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+
+        <section class="maintop">
+            <div class="toptext">
+                <p>Hi There!</p>
+                <h1>I'm <span>Hans Martin</span></h1>
+                <p>
+                   I hope you have a great Day
+                </p>
+            </div>
+
+            <div class="lodi">
+                <img src="lodi.jpg" alt="My profile picture">
+            </div>
+        </section>
+
+
+        <!-- ABOUT ME -->
+        <section class="about" id="about">
+
+            <section id="aboutme">
+                <p><span>ABOUT ME</span><br><br>! My name is Hans(nickname), im 20 years old.
+                    im currently 2nd year College, more activite sa gaming than learning code
+                </p>
+            </section>
+
+            <section id="education">
+                <h2>Education</h2>
+                <p>I am currently studying at Bestlink College of the Philippines.
+                    I want to improve my knowledge and prepare for my future career.</p>
+                <br><br>
+                <h2>Interest</h2>
+                <p>I enjoy playing online games, listening to music, watching movies, and learning about technology.</p>
+            </section>
+        </section>
+
+        <!-- SKILLS -->
+        <section class="skills" id="skills">
+            <h2 class="section-title">SKILLS</h2>
+
+            <div class="grid">
+                <article class="card">
+                    <div class="icon">&lt;/&gt;</div>
+                    <h3>WEB DEVELOPMENT</h3>
+                    <p>HTML, CSS</p>
+                </article>
+
+                <article class="card">
+                    <div class="icon">&#9638;</div>
+                    <h3>WEBSITE DESIGN</h3>
+                    <p>layout, user experience</p>
+                </article>
+
+                <article class="card">
+                    <div class="icon">&#123; &#125;</div>
+                    <h3>PROGRAMMING</h3>
+                    <p>Basic C and C++ programming</p>
+                </article>
+
+                <article class="card">
+                    <div class="icon">&#9733;</div>
+                    <h3>PERSONAL SKILLS</h3>
+                    <p>communication, time management, teamwork</p>
+                </article>
+            </div>
+        </section>
+
+
+        <!-- PORTFOLIO -->
+        <section class="projects" id="projects">
+            <h2 class="section-title">PORTFOLIO</h2>
+
+            <p class="section-description">
+                Here are some of my school activities and projects.
+            </p>
+
+            <div class="project-grid">
+
+  
+
+                
+
+                <section class="activities">
+                    <h3>PROJECT</h3>
+                    <p>My first project in IT students.</p>
+                    <a href="https://joroscasabar-stack.github.io/story/" target="_blank"
+                        rel="noopener noreferrer">VIEW</a>
+                </section>
+
+                
+
+
+        <!-- CONTACT -->
+        <section class="contact" id="contact">
+            <div class="contact-info">
+                <h2>Rubillos, Hans Jason</h2>
+                <p class="profession">
+                    BSIT STUDENT
+                </p>
+                <p>
+                    Thank you for visiting my portfolio!
+                </p>
+            </div>
+
+            <div class="contact-details">
+                <h2>CONTACT INFORMATION</h2>
+
+                <p>
+                    <strong>Email:</strong>
+                    <a>
+                        hansrubillos@gmail.com
+                    </a>
+                </p>
+
+                <p>
+                    <strong>Phone:</strong>
+                    <a>
+                        09813251526
+                    </a>
+                </p>
+
+                <p>
+                    <strong>School:</strong>
+                    Bestlink College of the Philippines
+                </p>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <p>
+            &copy; 2026 ARVINQT. All Rights Reserved.
+        </p>
+        <!-- From Uiverse.io by vinodjangid07 -->
+        <a href="#home" class="button">
+            <svg class="svgIcon" viewBox="0 0 384 512">
+                <path d="M214.6 41.4c-12.5-12.5-32.8-12.5-45.3 0l-160 160c-12.5 12.5-12.5
+       32.8 0 45.3s32.8 12.5 45.3 0L160 141.2V448c0 17.7 14.3 32 32 32s32-14.3
+        32-32V141.2L329.4 246.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3l-160-160z"></path>
+            </svg>
+        </a>
+
+
+    </footer>
+    <script>
+        const button = document.querySelector(".button");
+
+        window.addEventListener("scroll", () => {
+            if (window.scrollY > 200) {
+                button.classList.add("show");
+            } else {
+                button.classList.remove("show");
+            }
+        });
+    </script>
+</body>
+
+              </html>
